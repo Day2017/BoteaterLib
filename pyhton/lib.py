@@ -700,7 +700,7 @@ class Boteater():
         data.presentAttributes = {}
         return self.shop.placePurchaseOrderForFreeProduct(data)
 
-    def placePurchaseOrderWithLineCoin(self, productId):
+    def placePurchaseOrderWithLineCoin(self, to, productId):
         info = self.getProductV2Sticker(productId)
         locale = LocaleStruct()
         locale.language = "EN"
