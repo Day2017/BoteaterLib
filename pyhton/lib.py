@@ -448,7 +448,7 @@ class Boteater():
         return self.pool.fetchOps(self.lastOP, count, self.lastOP, self.lastOP)
 
     def getLastOpRevision(self):
-        return self.pool.getLastOpRevision()
+        return self.talk.getLastOpRevision()
 
 
 
